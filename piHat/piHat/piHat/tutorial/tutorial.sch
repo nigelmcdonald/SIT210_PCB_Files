@@ -1,0 +1,407 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "555_Badge"
+Date "2021-05-22"
+Rev "v01"
+Comp ""
+Comment1 ""
+Comment2 "creativecommons.org/licences/by/4.0/"
+Comment3 "Licence: CC BY 4.0"
+Comment4 "Author: Nigel McDonald"
+$EndDescr
+$Comp
+L Nigel_Tutorial:7555 U1
+U 1 1 60A91035
+P 5600 3950
+F 0 "U1" H 6044 3971 50  0000 L CNN
+F 1 "7555" H 6044 3880 50  0000 L CNN
+F 2 "" H 5600 4300 50  0001 C CNN
+F 3 "" H 5600 4300 50  0001 C CNN
+	1    5600 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 60A92E01
+P 4850 3550
+F 0 "R1" H 4920 3596 50  0000 L CNN
+F 1 "22k" H 4920 3505 50  0000 L CNN
+F 2 "" V 4780 3550 50  0001 C CNN
+F 3 "~" H 4850 3550 50  0001 C CNN
+	1    4850 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 60A952EF
+P 4850 4100
+F 0 "R2" H 4920 4146 50  0000 L CNN
+F 1 "330k" H 4920 4055 50  0000 L CNN
+F 2 "" V 4780 4100 50  0001 C CNN
+F 3 "~" H 4850 4100 50  0001 C CNN
+	1    4850 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 60A96E52
+P 6400 4200
+F 0 "R3" V 6193 4200 50  0000 C CNN
+F 1 "22k" V 6284 4200 50  0000 C CNN
+F 2 "" V 6330 4200 50  0001 C CNN
+F 3 "~" H 6400 4200 50  0001 C CNN
+	1    6400 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 60A99430
+P 6750 4400
+F 0 "R4" H 6680 4354 50  0000 R CNN
+F 1 "100k" H 6680 4445 50  0000 R CNN
+F 2 "" V 6680 4400 50  0001 C CNN
+F 3 "~" H 6750 4400 50  0001 C CNN
+	1    6750 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 60A9B613
+P 7650 4200
+F 0 "R5" V 7443 4200 50  0000 C CNN
+F 1 "10k" V 7534 4200 50  0000 C CNN
+F 2 "" V 7580 4200 50  0001 C CNN
+F 3 "~" H 7650 4200 50  0001 C CNN
+	1    7650 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 60A9C0BE
+P 8250 3050
+F 0 "R6" H 8320 3096 50  0000 L CNN
+F 1 "100" H 8320 3005 50  0000 L CNN
+F 2 "" V 8180 3050 50  0001 C CNN
+F 3 "~" H 8250 3050 50  0001 C CNN
+	1    8250 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 60A9CB40
+P 8650 3050
+F 0 "R7" H 8720 3096 50  0000 L CNN
+F 1 "100" H 8720 3005 50  0000 L CNN
+F 2 "" V 8580 3050 50  0001 C CNN
+F 3 "~" H 8650 3050 50  0001 C CNN
+	1    8650 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C1
+U 1 1 60A9F233
+P 4850 4600
+F 0 "C1" H 4965 4646 50  0000 L CNN
+F 1 "10uF" H 4965 4555 50  0000 L CNN
+F 2 "" H 4850 4600 50  0001 C CNN
+F 3 "~" H 4850 4600 50  0001 C CNN
+	1    4850 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C2
+U 1 1 60AA087A
+P 7150 4400
+F 0 "C2" H 7265 4446 50  0000 L CNN
+F 1 "100uF" H 7265 4355 50  0000 L CNN
+F 2 "" H 7150 4400 50  0001 C CNN
+F 3 "~" H 7150 4400 50  0001 C CNN
+	1    7150 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 60AA1CDA
+P 8250 3500
+F 0 "D1" V 8289 3382 50  0000 R CNN
+F 1 "RED" V 8198 3382 50  0000 R CNN
+F 2 "" H 8250 3500 50  0001 C CNN
+F 3 "~" H 8250 3500 50  0001 C CNN
+	1    8250 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 60AA2C7D
+P 8650 3500
+F 0 "D2" V 8689 3382 50  0000 R CNN
+F 1 "RED" V 8598 3382 50  0000 R CNN
+F 2 "" H 8650 3500 50  0001 C CNN
+F 3 "~" H 8650 3500 50  0001 C CNN
+	1    8650 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q1
+U 1 1 60AA3D27
+P 8150 4200
+F 0 "Q1" H 8340 4246 50  0000 L CNN
+F 1 "2N3904" H 8340 4155 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8350 4125 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 8150 4200 50  0001 L CNN
+	1    8150 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Battery-Holders-Clips-Contacts:BS-7 BAT1
+U 1 1 60AABF68
+P 3800 4200
+F 0 "BAT1" H 3928 4253 60  0000 L CNN
+F 1 "BS-7" H 3928 4147 60  0000 L CNN
+F 2 "digikey-footprints:Battery_Holder_Coin_2032_BS-7" H 4000 4400 60  0001 L CNN
+F 3 "http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf" V 4000 4500 60  0001 L CNN
+F 4 "BS-7-ND" H 4000 4600 60  0001 L CNN "Digi-Key_PN"
+F 5 "BS-7" H 4000 4700 60  0001 L CNN "MPN"
+F 6 "Battery Products" H 4000 4800 60  0001 L CNN "Category"
+F 7 "Battery Holders, Clips, Contacts" H 4000 4900 60  0001 L CNN "Family"
+F 8 "http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf" H 4000 5000 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/mpd-memory-protection-devices/BS-7/BS-7-ND/389447" H 4000 5100 60  0001 L CNN "DK_Detail_Page"
+F 10 "BATTERY HOLDER COIN 20MM PC PIN" H 4000 5200 60  0001 L CNN "Description"
+F 11 "MPD (Memory Protection Devices)" H 4000 5300 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4000 5400 60  0001 L CNN "Status"
+	1    3800 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Slide-Switches:EG1218 S1
+U 1 1 60AB1D98
+P 3900 3600
+F 0 "S1" V 3854 3744 50  0000 L CNN
+F 1 "EG1218" V 3945 3744 50  0000 L CNN
+F 2 "digikey-footprints:Switch_Slide_11.6x4mm_EG1218" H 4100 3800 50  0001 L CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 4100 3900 60  0001 L CNN
+F 4 "EG1903-ND" H 4100 4000 60  0001 L CNN "Digi-Key_PN"
+F 5 "EG1218" H 4100 4100 60  0001 L CNN "MPN"
+F 6 "Switches" H 4100 4200 60  0001 L CNN "Category"
+F 7 "Slide Switches" H 4100 4300 60  0001 L CNN "Family"
+F 8 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 4100 4400 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/e-switch/EG1218/EG1903-ND/101726" H 4100 4500 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH SLIDE SPDT 200MA 30V" H 4100 4600 60  0001 L CNN "Description"
+F 11 "E-Switch" H 4100 4700 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4100 4800 60  0001 L CNN "Status"
+	1    3900 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 60AB58B7
+P 4850 5000
+F 0 "#PWR0101" H 4850 4750 50  0001 C CNN
+F 1 "GND" H 4855 4827 50  0000 C CNN
+F 2 "" H 4850 5000 50  0001 C CNN
+F 3 "" H 4850 5000 50  0001 C CNN
+	1    4850 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 60AB7099
+P 5600 5000
+F 0 "#PWR0102" H 5600 4750 50  0001 C CNN
+F 1 "GND" H 5605 4827 50  0000 C CNN
+F 2 "" H 5600 5000 50  0001 C CNN
+F 3 "" H 5600 5000 50  0001 C CNN
+	1    5600 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 60AB807D
+P 6750 5000
+F 0 "#PWR0103" H 6750 4750 50  0001 C CNN
+F 1 "GND" H 6755 4827 50  0000 C CNN
+F 2 "" H 6750 5000 50  0001 C CNN
+F 3 "" H 6750 5000 50  0001 C CNN
+	1    6750 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 60AB962E
+P 7150 5000
+F 0 "#PWR0104" H 7150 4750 50  0001 C CNN
+F 1 "GND" H 7155 4827 50  0000 C CNN
+F 2 "" H 7150 5000 50  0001 C CNN
+F 3 "" H 7150 5000 50  0001 C CNN
+	1    7150 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 60AB991F
+P 8250 5000
+F 0 "#PWR0105" H 8250 4750 50  0001 C CNN
+F 1 "GND" H 8255 4827 50  0000 C CNN
+F 2 "" H 8250 5000 50  0001 C CNN
+F 3 "" H 8250 5000 50  0001 C CNN
+	1    8250 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0106
+U 1 1 60ABA47D
+P 4400 3700
+F 0 "#PWR0106" H 4400 3550 50  0001 C CNN
+F 1 "VCC" H 4415 3873 50  0000 C CNN
+F 2 "" H 4400 3700 50  0001 C CNN
+F 3 "" H 4400 3700 50  0001 C CNN
+	1    4400 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0107
+U 1 1 60ABC9B1
+P 5600 3400
+F 0 "#PWR0107" H 5600 3250 50  0001 C CNN
+F 1 "VCC" H 5615 3573 50  0000 C CNN
+F 2 "" H 5600 3400 50  0001 C CNN
+F 3 "" H 5600 3400 50  0001 C CNN
+	1    5600 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0108
+U 1 1 60ABD705
+P 8250 2850
+F 0 "#PWR0108" H 8250 2700 50  0001 C CNN
+F 1 "VCC" H 8265 3023 50  0000 C CNN
+F 2 "" H 8250 2850 50  0001 C CNN
+F 3 "" H 8250 2850 50  0001 C CNN
+	1    8250 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0109
+U 1 1 60ABE3D0
+P 8650 2850
+F 0 "#PWR0109" H 8650 2700 50  0001 C CNN
+F 1 "VCC" H 8665 3023 50  0000 C CNN
+F 2 "" H 8650 2850 50  0001 C CNN
+F 3 "" H 8650 2850 50  0001 C CNN
+	1    8650 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0110
+U 1 1 60AC229F
+P 4850 3350
+F 0 "#PWR0110" H 4850 3200 50  0001 C CNN
+F 1 "VCC" H 4865 3523 50  0000 C CNN
+F 2 "" H 4850 3350 50  0001 C CNN
+F 3 "" H 4850 3350 50  0001 C CNN
+	1    4850 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 60AB8EB7
+P 3800 5000
+F 0 "#PWR0111" H 3800 4750 50  0001 C CNN
+F 1 "GND" H 3805 4827 50  0000 C CNN
+F 2 "" H 3800 5000 50  0001 C CNN
+F 3 "" H 3800 5000 50  0001 C CNN
+	1    3800 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 5000 3800 4400
+Wire Wire Line
+	3800 4000 3800 3800
+Wire Wire Line
+	4000 3800 4400 3800
+Wire Wire Line
+	4400 3800 4400 3700
+Wire Wire Line
+	4850 3350 4850 3400
+Wire Wire Line
+	4850 3700 4850 3800
+Wire Wire Line
+	4850 3800 5150 3800
+Wire Wire Line
+	4850 3800 4850 3950
+Connection ~ 4850 3800
+Wire Wire Line
+	4850 4250 4850 4350
+Wire Wire Line
+	4850 4350 5100 4350
+Wire Wire Line
+	5100 4350 5100 4100
+Wire Wire Line
+	5100 3950 5150 3950
+Wire Wire Line
+	5150 4100 5100 4100
+Connection ~ 5100 4100
+Wire Wire Line
+	5100 4100 5100 3950
+Wire Wire Line
+	4850 4450 4850 4350
+Connection ~ 4850 4350
+Wire Wire Line
+	5600 4400 5600 5000
+Wire Wire Line
+	4850 4750 4850 5000
+Wire Wire Line
+	6000 3900 6250 3900
+Wire Wire Line
+	6250 3900 6250 4200
+Wire Wire Line
+	6550 4200 6750 4200
+Wire Wire Line
+	6750 4250 6750 4200
+Connection ~ 6750 4200
+Wire Wire Line
+	6750 4200 7150 4200
+Wire Wire Line
+	7150 4250 7150 4200
+Connection ~ 7150 4200
+Wire Wire Line
+	7150 4200 7500 4200
+Wire Wire Line
+	7150 4550 7150 5000
+Wire Wire Line
+	6750 4550 6750 5000
+Wire Wire Line
+	7800 4200 7950 4200
+Wire Wire Line
+	8250 4400 8250 5000
+Wire Wire Line
+	8250 4000 8250 3850
+Wire Wire Line
+	8250 3850 8650 3850
+Wire Wire Line
+	8650 3850 8650 3650
+Connection ~ 8250 3850
+Wire Wire Line
+	8250 3850 8250 3650
+Wire Wire Line
+	8650 3350 8650 3200
+Wire Wire Line
+	8250 3350 8250 3200
+Wire Wire Line
+	8650 2900 8650 2850
+Wire Wire Line
+	8250 2900 8250 2850
+Wire Wire Line
+	5600 3550 5600 3450
+Wire Wire Line
+	5600 3450 5700 3450
+Wire Wire Line
+	5700 3450 5700 3550
+Connection ~ 5600 3450
+Wire Wire Line
+	5600 3450 5600 3400
+$EndSCHEMATC
